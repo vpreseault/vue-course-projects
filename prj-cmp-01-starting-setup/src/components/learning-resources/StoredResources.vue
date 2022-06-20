@@ -16,7 +16,7 @@ export default {
   components: {
     LearningResources,
   },
-  props: ['resources'],
+  inject: ['resources'],
   data() {
     return {
       storedResources: this.resources,
