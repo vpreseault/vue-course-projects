@@ -10,10 +10,10 @@
       :mode="addResButtonMode"
       >Add Resource</base-button
     >
-    <keep-alive>
-      <component :is="selectedTab"></component>
-    </keep-alive>
   </base-card>
+  <keep-alive>
+    <component :is="selectedTab"></component>
+  </keep-alive>
 </template>
 
 <script>
